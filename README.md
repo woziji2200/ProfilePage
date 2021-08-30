@@ -11,6 +11,8 @@
 ### 正文
 模板站：https://www.funny233.xyz
 
+![预览图](https://github.com/woziji2200/ProfilePage/blob/main/preview.png)
+
 素材来自 https://card.niconi.co.ni
 
 特性：
