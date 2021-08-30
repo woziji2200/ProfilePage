@@ -1,0 +1,219 @@
+html {
+    position: relative;
+    overflow: hidden !important;
+  }
+body {
+    font-family: 'Quicksand', sans-serif;
+    padding:0;
+    margin:0;
+
+  }
+.bg{
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    
+    position: absolute;
+    z-index: 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background{
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-image: url("img/background.png");
+    position: absolute;
+    z-index: -5;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background2{
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-image: url("img/background2.png");
+    position: absolute;
+    z-index: -4;
+}
+.yinghua{
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-image: url("img/yinghua.png");
+    position: absolute;
+    z-index: -1;
+}
+
+@media screen and (max-width : 768px) {
+	.background {
+		background-size:cover;
+	}
+    .background2 {
+		background-size:cover;
+	}
+} 
+@media screen and (max-width : 1000px) {
+	.background {
+		background-size:130%;
+	}
+    .background2 {
+		background-size:130%;
+	}
+} 
+@media screen and (max-width : 2333333px) {
+	.background {
+		background-size:130%;
+	}
+    .background2 {
+		background-size:130%;
+	}
+} 
+
+
+.profileCard{
+    
+    
+    z-index: 0;
+
+}
+.logo1{
+
+    margin: auto;
+    margin-top: -100px;
+    width: 200px;
+    height: 200px;
+    /*background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #ffffff;
+    */
+}
+.logo2{
+    width: 180px;
+    height: 180px;
+    margin: 5px 5px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.9);
+    transition: all 1s;
+    /*box-shadow: 0px 0px 10px #ffffff;*/
+}
+
+.logo2:hover{
+    transform: rotate(360deg);
+    box-shadow: 0px 0px 50px rgba(255, 255, 255, 1);
+
+    transition: all 1s;
+    /*box-shadow: 0px 0px 10px #ffffff;*/
+}
+
+.name{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    text-shadow: 0px 0px 12px white;
+    transition: all 0.5s;
+}
+.name:hover{
+    text-shadow: 0px 0px 30px white;
+
+    transition: all 0.5s;
+}
+
+.slogan{
+    margin: auto;
+    width: 600px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    text-shadow: 0px 0px 12px #ffffff;
+    box-shadow: 0px 0px 12px #ffffff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+.slogan:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 0px 25px #ffffff;
+    transition: all 0.5s;
+}
+
+.slogan2{
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    max-width: 500px;
+}
+
+.buttons{
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button1{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 50px;
+    width: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+.button1:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    
+    color: #ffffff;
+    box-shadow: 0px 0px 12px #ffffff;
+    transition: all 0.5s;
+
+}
+
+.lihui{
+    position: fixed;
+    background-image: url("img/lihui.texb");
+    width: 700px;
+    height: 700px;
+    left: -100px;
+    bottom: 0;
+    background-size: cover;
+    z-index: -2;
+}
+
+.footer{
+    position: absolute;
+    
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0px;
+    color:rgba(255, 255, 255, 0.8);
+    font-size: 10px;
+}
+
+.footer2{
+    text-align: center;
+}
+
+a{
+    color: rgba(255, 255, 255, 0.8);
+}
