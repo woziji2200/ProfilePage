@@ -120,7 +120,7 @@ function aboutMe(){
         i=1;
         slogan.style.height="100px";
         slogan2.innerHTML="这里是高坂滑稽果，一个果厨~ 这个废柴能熟练掌握面向百度编程、Windows和Linux的开关机、PS和PR的安装和卸载、Arduino和各种零件的购买和损坏，还喜欢打音游（（（。。。生命不息，折腾不止！目前坐等高考中...";
-    } else 
+    } else {
         i=0;
         slogan.style.height="50px";
         slogan2.innerHTML="如果奇迹有颜色，那么一定是橙色！";
